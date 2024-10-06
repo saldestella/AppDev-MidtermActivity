@@ -9,6 +9,7 @@ This is a basic backend application built with Node.js and Express.js. The appli
 - [API Endpoints](#api-endpoints)
 
 ## Project Structure
+
 project/
 ├── app.js                    # Main app file
 ├── routes/                   # Route handlers
@@ -33,5 +34,25 @@ Make sure you have Node.js installed on your machine. You can download it from [
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd backend-exercise
+   git clone https://github.com/saldestella/AppDev-MidtermActivity
+    Tip: Use github desktop
+
+2. Install Dependencies:
+    ```bash
+    npm install
+
+3.  JSON Web Tokens (JWT) for authentication [optional]
+    ```bash
+    npm install jsonwebtoken
+
+4. Joi, for validation [optional]
+    ```bash
+    npm install joi
+
+## Running the Application
+Once the dependencies are installed, follow these steps to run the application:
+
+1. Start the server:
+    ```bash
+    node app.js
+
