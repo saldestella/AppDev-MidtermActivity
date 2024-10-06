@@ -8,4 +8,4 @@ const addUser = (user) => {
     users.push(user);
 };
 
-module.exports = { user, getUsernameByUsername, addUser };
+module.exports = { users, getUsernameByUsername, addUser };
