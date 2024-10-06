@@ -11,16 +11,16 @@ This is a basic backend application built with Node.js and Express.js. The appli
 ## Project Structure
 
 project/
-├── app.js                    # Main app file
-├── routes/                   # Route handlers
-│   └── user.js
-├── controllers/              # Business logic for each route
-│   └── userController.js
-├── models/                   # Mock models (JSON or in-memory)
-│   └── userModel.js
-├── middleware/               # Custom middleware for auth, logging
-│   └── authMiddleware.js
-└── data/                     # (Optional) JSON data storage
+├── app.js                    # Main app file <br>
+├── routes/                   # Route handlers<br>
+│   └── user.js<br>
+├── controllers/              # Business logic for each route<br>
+│   └── userController.js<br>
+├── models/                   # Mock models (JSON or in-memory)<br>
+│   └── userModel.js<br>
+├── middleware/               # Custom middleware for auth, logging<br>
+│   └── authMiddleware.js<br>
+└── data/                     # (Optional) JSON data storage<br>
     └── users.json
 
 ## Installation
