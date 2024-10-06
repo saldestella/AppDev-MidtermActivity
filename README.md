@@ -67,7 +67,6 @@ Once the dependencies are installed, follow these steps to run the application:
     }
 
     Response:
-    ```bash
     {
     "message": "User registered successfully"
     }
@@ -81,7 +80,6 @@ Once the dependencies are installed, follow these steps to run the application:
     }
     
     Response:
-    ```bash
     {
     "message": "Login successful",
     "token": "mock-token"
@@ -93,7 +91,6 @@ Once the dependencies are installed, follow these steps to run the application:
     Authorization: mock-token
 
     Response:
-    ```bash
     {
     "id": 1,
     "username": "testuser",
